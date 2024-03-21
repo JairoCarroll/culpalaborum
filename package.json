@@ -1,0 +1,27 @@
+{
+  "name": "culpalaborum",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "prepublish": "lerna run prepublish",
+    "publish": "lerna run publish",
+    "test": "lerna run test --stream",
+    "test:watch": "lerna run test:watch --stream"
+  },
+  "devDependencies": {
+    "@octokit/core": "^3.2.0",
+    "lerna": "3.20.2"
+  },
+  "author": "WillardDouglas",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JairoCarroll/culpalaborum.git"
+  },
+  "version": "1.9.0",
+  "dependencies": {
+    "ipsumperferendis": "^1.0.0",
+    "temporaporro": "^1.0.0"
+  }
+}
